@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV RUNDECK_VERSION v5.3.0
+ENV RUNDECK_VERSION v5.4.0
 
 # Update & install packages for rundeck
 RUN apt-get update && \
