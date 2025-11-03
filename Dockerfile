@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV RUNDECK_VERSION=v5.16.0-20251006
+ENV RUNDECK_VERSION=v5.17.0-20251103
 
 # Update & install packages for rundeck
 RUN apt-get update && \
